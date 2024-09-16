@@ -36,15 +36,15 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center">
-  <p>
-    Enjoy fresh, tasty meals with our convenient delivery and takeaway options.
-  </p>
-  <ul className="mt-3 list-disc">
-    <li>We take large orders for events and gatherings</li>
-    <li>Full catering services for weddings, birthdays, and more</li>
-  </ul>
-</div>
+          <div className="flex flex-col justify-center items-center p-2">
+            <p>
+              Enjoy fresh, tasty meals with our convenient delivery and takeaway options.
+            </p>
+            <ul className="mt-3 list-disc">
+              <li>We take large orders for events and gatherings</li>
+              <li>Full catering services for weddings, birthdays, and more</li>
+            </ul>
+          </div>
 
 
         </div>
