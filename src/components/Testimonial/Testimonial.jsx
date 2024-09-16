@@ -16,8 +16,8 @@ const testimonialData = [
   },
   {
     id: 3,
-    name: "Mounak Sen",
-    text: "Always a pleasure to order from here. The food never disappoints.",
+    name: "Anish Golder",
+    text: "Always a pleasure to order from here. The food never disappoints. I have ordered for 40+ people from here.",
     img: "https://ui-avatars.com/api/?name=Mounak+Sen&background=ddd&color=333&rounded=true",
   },
 ];

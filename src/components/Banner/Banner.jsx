@@ -1,19 +1,19 @@
 import React from "react";
 import BiryaniImg from "../../assets/biryani5.png";
-import Vector from "../../assets/vector3.png";
+// import Vector from "../../assets/vector3.png";
 import { MdCelebration } from "react-icons/md";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
-  const bgImage = {
-    backgroundImage: `url(${Vector})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "100%",
-    width: "100%",
-  };
+  // const bgImage = {
+  //   backgroundImage: `url(${Vector})`,
+  //   backgroundPosition: "center",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundSize: "cover",
+  //   height: "100%",
+  //   width: "100%",
+  // };
   return (
     <>
       <div className="min-h-[550px]">
@@ -38,7 +38,7 @@ const Banner = () => {
                   Discover Our Delicious Offerings!
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
-                  At Sumitar Heshelghor, we pride ourselves on serving meals that are both healthy and incredibly tasty. Whether you're looking for a quick bite or a special meal for an event, our diverse menu has something for everyone.
+                  At Sumitar Heshelghor, we pride ourselves on serving meals that are both healthy and incredibly tasty. Whether you&apos;re looking for a quick bite or a special meal for an event, our diverse menu has something for everyone.
                   <br />
                   <br />
                   Each dish is crafted with fresh, high-quality ingredients. Explore our menu today and experience the perfect blend of flavor and nutrition that will leave you craving more!

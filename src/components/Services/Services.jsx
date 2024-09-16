@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../assets/biryani.png";
 import Img2 from "../../assets/biryani2.png";
 import Img3 from "../../assets/biryani4.png";
-import StarRatings from "react-star-ratings";
+// import StarRatings from "react-star-ratings";
 const ServicesData = [
   {
     id: 1,
@@ -21,7 +21,7 @@ const ServicesData = [
   {
     id: 3,
     img: Img2,
-    name: "Fied rice & Chilli chicken",
+    name: "Fried rice & Chilli chicken",
     description:
       "Try our delicious Fried Rice and Chilli Chicken combo - bold flavors you’ll love!",
   },
@@ -44,6 +44,7 @@ const Services = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 md:gap-5 place-items-center">
             {ServicesData.map((service) => (
               <div
+              key={service.id} // Added key prop here
                 data-aos="zoom-in"
                 data-aos-duration="300"
                 className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]"

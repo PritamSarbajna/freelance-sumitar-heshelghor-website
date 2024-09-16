@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   FaFacebook,
-  FaInstagram,
-  FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
@@ -19,9 +17,6 @@ const Footer = () => {
                 <img src={Logo} alt="Logo" className="w-12" />
                 সুমিতার হেঁশেলঘর
               </h1>
-            <p className="">
-            We offer convenient delivery and takeaway options, ensuring your meals are fresh and ready when you need them. Enjoy healthy, tasty dishes from the comfort of your home or on the go!{" "}
-            </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
@@ -36,53 +31,22 @@ const Footer = () => {
               <a href="https://wa.me/8116568704">
                 <FaWhatsapp className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61556963933494">
                 <FaFacebook className="text-3xl" />
               </a>
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
-            <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
-                </h1>
-                <ul className={`flex flex-col gap-3`}>
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
-                </ul>
-              </div>
-            </div>
-            <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
-                </h1>
-                <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
-                </ul>
-              </div>
-            </div>
-            <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
-                </h1>
-                {/* <ul className="list-disc list-inside"> */}
-                <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <div className="flex flex-col justify-center items-center">
+  <p>
+    Enjoy fresh, tasty meals with our convenient delivery and takeaway options.
+  </p>
+  <ul className="mt-3 list-disc">
+    <li>We take large orders for events and gatherings</li>
+    <li>Full catering services for weddings, birthdays, and more</li>
+  </ul>
+</div>
+
+
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">

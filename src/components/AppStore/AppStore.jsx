@@ -1,5 +1,4 @@
 import React from "react";
-import WhatsAppChatImg from "../../assets/play_store.png";
 import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon from react-icons
 
 import Gif from "../../assets/mobile_bike.gif";

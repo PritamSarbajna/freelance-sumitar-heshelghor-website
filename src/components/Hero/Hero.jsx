@@ -2,7 +2,7 @@ import React from "react";
 import BiryaniImg1 from "../../assets/biryani.png";
 import BiryaniImg2 from "../../assets/biryani2.png";
 import BiryaniImg3 from "../../assets/biryani3.png";
-import Vector from "../../assets/vector3.png";
+// import Vector from "../../assets/vector3.png";
 
 const ImageList = [
   {
@@ -22,14 +22,14 @@ const ImageList = [
 const Hero = () => {
   const [imageId, setImageId] = React.useState(BiryaniImg1);
 
-  const bgImage = {
-    backgroundImage: `url(${Vector})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "100%",
-    width: "100%",
-  };
+  // const bgImage = {
+  //   backgroundImage: `url(${Vector})`,
+  //   backgroundPosition: "center",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundSize: "cover",
+  //   height: "100%",
+  //   width: "100%",
+  // };
 
   return (
     <>
@@ -52,7 +52,7 @@ const Hero = () => {
                 </span>{" "}
               </h1>
               <p className="text-sm text-[#bbb]">
-              Welcome to Sumitar Heshelghor. We're excited to serve you delicious, healthy meals that are perfect for any occasion. Your satisfaction is our priority, and we can't wait to make your dining experience exceptional!
+              Welcome to Sumitar Heshelghor. We&apos;re excited to serve you delicious, healthy meals that are perfect for any occasion. Your satisfaction is our priority, and we can&apos;t wait to make your dining experience exceptional!
               </p>
               <div>
                 <a href="https://wa.me/8116568704" target="__blank">
@@ -77,6 +77,7 @@ const Hero = () => {
               <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-3 justify-center gap-2 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full">
                 {ImageList.map((item) => (
                   <img
+                    key={item.id} // Added key prop here
                     data-aos="zoom-in"
                     data-aos-duration="400"
                     data-aos-once="true"
